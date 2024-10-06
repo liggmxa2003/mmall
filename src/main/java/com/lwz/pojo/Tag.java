@@ -1,7 +1,5 @@
 package com.lwz.pojo;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,5 +19,5 @@ public class Tag {
     private String name;
 
     // 定义一个私有的Anime列表，用于存储多个Anime对象
-    private List<Anime> anime = new ArrayList<>();
+    private List<Blog> blogs = new ArrayList<>();
 }

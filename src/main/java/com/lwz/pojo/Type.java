@@ -24,5 +24,5 @@ public class Type {
 
     // 定义一个私有的blogs列表，用于存储Anime对象
     // 初始化时创建一个空的ArrayList，避免在添加元素时的空指针异常
-    private List<Anime> anime = new ArrayList<>();
+    private List<Blog> blogs = new ArrayList<>();
 }
